@@ -1,0 +1,20 @@
+package AplikasiGrade;
+
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+	int Ntugas, NUTS, NUAS;	
+	String nama;
+	
+	Scanner keyboard = new Scanner(System.in);
+	System.out.print("Nama : ");
+	nama = keyboard.next();
+	System.out.print("input nilai tugas : ");
+	NUTS = keyboard.nextInt();
+	System.out.print("input nilai UTS   : ");
+	NUAS = keyboard.nextInt();
+	System.out.print("input nilai UAS   : ");
+	}
+
+}

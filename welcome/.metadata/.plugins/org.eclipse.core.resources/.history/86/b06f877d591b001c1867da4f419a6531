@@ -1,0 +1,12 @@
+package AplikasiGrade;
+
+public class Program {
+
+	public static void main(String[] args) {
+	System.out.print("Nama : ");
+	System.out.print("input nilai tugas : ");
+	System.out.print("input nilai UTS   : ");
+	System.out.print("input nilai UAS   : ");
+	}
+
+}
