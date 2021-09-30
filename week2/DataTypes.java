@@ -14,7 +14,6 @@ public class DataTypes{
             try {
 
                 a = keyboard.nextLong();
-
                 System.out.println(a + " can be fitted in:");
 
                 if (a >= -128 && a <= 127) {
@@ -35,8 +34,6 @@ public class DataTypes{
             } catch (Exception z) {
                 System.out.println(keyboard.next() + " can't be fitted anywhere.");
             }
-
-
         }
     }
 
