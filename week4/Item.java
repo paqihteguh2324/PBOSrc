@@ -7,7 +7,7 @@ public class Item {
 	}
 	
 	public Item(String name) {
-		this.name="ipin";
+		this();
 	System.out.println(this.name);
 	}
 }
