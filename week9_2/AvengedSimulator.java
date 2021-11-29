@@ -23,10 +23,11 @@ public class AvengedSimulator {
 	public static void main(String[] args) {
 		 List<SuperHero> superhero = new ArrayList<SuperHero>();
 		 addSuperHero(superhero, "Gennichiro", 0, "ManRay");
-		 addSuperHero(superhero, "Shirai", 255, "FlyingDutchMan");
+		 addSuperHero(superhero, "Shirai", 225, "FlyingDutchMan");
 		 addSuperHero(superhero, "Gyoubu Masataka Oniwa", 553, "ManRay");
 		 addSuperHero(superhero, "Arnastria", 666, "DirtyBubble");
 		 addSuperHero(superhero, "Tatenari", 36556, "FlyingDutchMan");
+		 
 		 for (SuperHero heroes : superhero) {
 			 System.out.println("===============================");
 			 heroes.identity();

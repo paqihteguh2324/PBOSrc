@@ -4,10 +4,8 @@ public class FlyingDutchMan extends SuperHero {
 
 	public FlyingDutchMan(int powerLevel, String name) {
 		super(powerLevel, name);
-		Power laser = new LaserEye();
-		Power flying=new Flying();
-		addPower(flying);
-		addPower(laser);
+		 addPower(new Flying());
+	     addPower(new LaserEye());
 	}
 
 	@Override

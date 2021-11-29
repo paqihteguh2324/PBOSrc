@@ -4,10 +4,8 @@ public class DirtyBubble extends SuperHero {
 
 	public DirtyBubble(int powerLevel, String name) {
 		super(powerLevel, name);
-		Power fly = new Flying();
-		Power strength=new Strength();
-		addPower(fly);
-		addPower(strength);
+		addPower(new Strength());
+        addPower(new Flying());
 	}
 
 	@Override
