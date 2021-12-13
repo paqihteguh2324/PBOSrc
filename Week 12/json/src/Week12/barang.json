@@ -1,0 +1,35 @@
+{
+  "status": {
+    "code": 0,
+    "description": "OK"
+  },
+  "servicePackage": {
+    "service": "Yakin Esok Sampai(YES)",
+    "value": 48000
+  },
+  "city": {
+    "origin": "SURABAYA",
+    "destination":"JAKARTA"
+  },
+  "weight":2,
+  "quantity":1,
+  "priceItem": 80000,
+  "productName": "Celana Jeans",
+
+  "status1": {
+    "code1": 0,
+    "description1": "OK"
+  },
+  "servicePackage1": {
+    "service1": "Reguler (REG)",
+    "value1": 26000
+  },
+  "city1": {
+    "origin1": "SURABAYA",
+    "destination1":"JAKARTA"
+  },
+  "weight1":2,
+  "quantity1":2,
+  "priceItem1": 90000,
+  "productName1": "Kemeja Lengan Panjang"
+}
